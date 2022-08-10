@@ -1,9 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "About Us";
-document.querySelector("body").appendChild(h2);
+
 
 const p =document.createElement("p");
-p.textContent = "Kiremani Business Solutions is a futuristic company focused on resolving and re-adjusting business expectations basedd on current and future industry trends. We work with different entrepreneurs, innovators and partners to ensure that your busibess makes the best use of your available resources, opportunities and strengths";
+p.textContent = "Buzztech Solutions is a futuristic company focused on resolving and re-adjusting business expectations basedd on current and future industry trends. We work with different entrepreneurs, innovators and partners to ensure that your busibess makes the best use of your available resources, opportunities and strengths";
 document.querySelector ("h2").appendChild(p);
 
 const img = document.createElement("img");

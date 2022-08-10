@@ -1,6 +1,7 @@
 body {
     background-color: rgb(161, 132, 187);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: larger;
   }
   h1{
     text-align: center;
@@ -20,4 +21,21 @@ body {
   h22{
     font-size: 30px;
     font-style: bold;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div {
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
   }
